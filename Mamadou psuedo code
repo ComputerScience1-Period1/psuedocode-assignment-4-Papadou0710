@@ -2,10 +2,8 @@ Pseudo code for card game
 
 Rules of the game:
 It is illegal to cheat, for example: looking at your opponent's cards, looking through the the stack of cards on the side.
-The rules of the game is simple.
-If a player has a high value card, for example: an Ace, a King, a Queen, a joker, a jack, a 2 or a 7, he/she has the choice of making 
-his/her opponent/opponents take the center pile of cards or pick up 2 cards from the side deck. 
-The point of the game is to have zero cards left first. If the goal is accomplished first then that player wins the game.
+If a player has a higher value card than the other player, he/she has the choice of making his/her opponent/opponents take the center pile of cards or pick up 2 cards from the side deck. 
+The point of the game is to have zero cards left first. Which ever player has discards all their cards first, wins the game.
 It is the opposite of War.
 
 
@@ -14,15 +12,15 @@ First three rounds:
 
 (1)  Load game
 (2)  Identify 2 players 
-(3)  Distribute 5 to each player at random
-(4)  Place a card at the center of both player
+(3)  Distribute 5 cards to each player at random, from the top of the pile
+(4)  Place a card at the center of both players
 (5)  Flip the center card so the card is identified
 (6)  Start the games by flipping a coin to determine who will put the second card on the center
-(7)  Player 1 is chosen and  must place a card at the center that is similar in sign or in number to the center card
-(8)  player 1 puts a card in the high values, which forces player 2 to either pick up two cards from the side pile 
-or pick up all the center pile.
-(9)  player 2 chooses to take the center pile.
-(10)  Now player 1 can choose one of his cards to place in the middle to continue the game.
-(11)  player 2 places a matching card with similar signs.
-(12) player 1 does not have a matching card to player 2’s card.
-(13) player 1 has to pick up two cards from the side pile.
+(7)  If Player 1 is chosen, they must place a card at the center that is similar in suit or in number to the center card
+(8)  Player 1 puts a card that is higher value, which forces player 2 to either pick up two cards from the side pile or pick up all the center pile.
+(9)  Player 2 chooses to take the center pile.
+(10) Now player 1 can choose one of his cards to place in the middle to continue the game.
+(11) Player 2 places a matching card with similar signs.
+(12) Player 1 does not have a matching card to Player 2’s card.
+(13) Player 1 has to pick up two cards from the side pile.
+(14) Repeat until one player has no remaining cards.
