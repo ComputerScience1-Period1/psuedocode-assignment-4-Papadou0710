@@ -25,7 +25,8 @@ First three rounds:
 
        
 
-         (6)  Start the games by flipping a coin to determine who will put the second card on the center;
+         (6)  Start the games by flipping a coin to determine who will put the second card on the center;\
+         //make a random number generator in order to find out who will win between 1 and 2
 
             (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>;
 
@@ -34,6 +35,7 @@ First three rounds:
                  (9)  <<Player2>> chooses to take the center pile;}
 
 (10) if{ player2 starts
+//make the player two turn an else statement to which that if player1 doesn't win the coin toss that player two will have his turn faster ranther than checking for it to win
 
 (11) <<Player2>> places a matching card with similar signs;
 
