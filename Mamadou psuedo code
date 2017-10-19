@@ -1,44 +1,62 @@
 Pseudo code for card game
 
 Rules of the game:
+
 It is illegal to cheat, for example: looking at your opponent's cards, looking through the the stack of cards on the side.
+ - If cheating is found out, the heathen will be shot on sight.
 If a player has a higher value card than the other player, he/she has the choice of making his/her opponent/opponents take the center pile of cards or pick up 2 cards from the side deck. 
+ - If the player does not pick the cards up, they will be found and shot on sight.
 The point of the game is to have zero cards left first. Which ever player has discards all their cards first, wins the game.
+ - If a player does not discard all their cards, they will be found and shot on sight.
 It is the opposite of War.
+ - It is called Love.
+
+Vars
 
 int(value)
-int (center card)
+ - Value of card currently in player's hand (2-10, J, Q, K, A)
+int(center card)
+ - Array of all past cards which have been played
 int(cards)
-int(player1)
-int(player2)
-int(players)
+ - ? 
+int(players) = 2
+ - There will always be at least 2 players playing;
 int (side deck)
-First three rounds:
 
-(1)  Load game;
-    players = player1 +player2
- (2)  Identify 2 players ;
-          cards = (10-54)
-   (3)  Distribute 5 <<cards>> to <<players>> at random, from the top of the pile;
-          center card = 44-1
-     (4)  Place a card at the center of both players;
 
-       
+PseudoCode
 
-         (6)  Start the games by flipping a coin to determine who will put the second card on the center;
 
-            (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>;
+(1) Load game
 
-               (8)  <<Player1>> puts a card that is higher <<value>>, which forces player 2 to either pick up two <<cards> from the side pile or pick up all the center pile;
+(2) Identify 2 players
+    int array = diamondcards[Ace,2,3,4,5,6,7,8,9,10,J,Q,K];
+    int array = heartcards[Ace,2,3,4,5,6,7,8,9,10,J,Q,K];
+    int array = clovercards[Ace,2,3,4,5,6,7,8,9,10,J,Q,K];
+    int array = clubcards[Ace,2,3,4,5,6,7,8,9,10,J,Q,K];
+    
+(3) Distribute 5 cards to numplayers at random, from the top of the pile
+    int topofpilecard = randint(1,54);
+    int array = centerpilecards[];
+    int array = player1hand[];
+    int array = player2hand[];
+    for(int i=0;i<5;i++){
+        int card = randint(1,54);
+        player1hand(i)=card;
+        int card = randint(1,54);
+        player2hand(i)=card);
+        }
 
-                 (9)  <<Player2>> chooses to take the center pile;}
-
-(10) if{ player2 starts
-
-(11) <<Player2>> places a matching card with similar signs;
-
-(12)  <<Player1>> does not have a matching card to <<Player2>>’s card;
-
-(13)   <<Player1>> has to pick up two <<cards>> from the side pile;}
+(4) Place a card at the center of both players
+    
+(5) Start the games by flipping a coin to determine who will put the second card on the center
+(6) If{ Player1 is chosen, they must place a card center that is similar in suit or in number to the center card
+(7) Player1 puts a card that is higher value, which forces player 2 to either pick up two cards from the side pile or pick up all the center pile
+(8) Player2 chooses to take the center pile
+(9) if {player2 starts
+(10) Player2 places a matching card with similar signs
+(11) Player1 does not have a matching card to Player2’s card
+(12) Player1 has to pick up two cards from the side pile
 
                                          Repeat until one player has no remaining cards;
+                                         
