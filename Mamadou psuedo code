@@ -27,8 +27,12 @@ First three rounds:
 
          (6)  Start the games by flipping a coin to determine who will put the second card on the center;
 
-            (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>;
-
+            (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>; // what if they don't have a card that meets these conditions?
+                /* 
+                if( <<Player1>> does NOT have a valid card) {
+                    <<Player1>> pick up two <<cards>> from side pile;
+                }
+                */
                (8)  <<Player1>> puts a card that is higher <<value>>, which forces player 2 to either pick up two <<cards> from the side pile or pick up all the center pile;
 
                  (9)  <<Player2>> chooses to take the center pile;}
