@@ -19,7 +19,7 @@ First three rounds:
     players = player1 +player2
  (2)  Identify 2 players ;
           cards = (10-54)
-   (3)  Distribute 5 <<cards>> to <<players>> at random, from the top of the pile;
+   (3)  Distribute 5 cards to players at random, from the top of the pile;
           center card = 44-1
      (4)  Place a card at the center of both players;
 
@@ -27,18 +27,18 @@ First three rounds:
 
          (6)  Start the games by flipping a coin to determine who will put the second card on the center;
 
-            (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>;
+            (7)  If{ Player1 is chosen, they must place a card center that is similar in suit or in number to the center card
 
-               (8)  <<Player1>> puts a card that is higher <<value>>, which forces player 2 to either pick up two <<cards> from the side pile or pick up all the center pile;
+               (8)  Player1 puts a card that is higher value which forces player 2 to either pick up two cards from the side pile or pick up all the center pile;
 
-                 (9)  <<Player2>> chooses to take the center pile;}
+                 (9)  Player2 chooses to take the center pile;}
 
 (10) if{ player2 starts
 
-(11) <<Player2>> places a matching card with similar signs;
+(11) Player2 places a matching card with similar signs;
 
-(12)  <<Player1>> does not have a matching card to <<Player2>>’s card;
+(12)  Player1 does not have a matching card to Player2s card;
 
-(13)   <<Player1>> has to pick up two <<cards>> from the side pile;}
+(13)   Player1 has to pick up two cards from the side pile;}
 
                                          Repeat until one player has no remaining cards;
