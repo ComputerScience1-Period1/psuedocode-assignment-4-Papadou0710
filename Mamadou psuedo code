@@ -6,21 +6,39 @@ If a player has a higher value card than the other player, he/she has the choice
 The point of the game is to have zero cards left first. Which ever player has discards all their cards first, wins the game.
 It is the opposite of War.
 
-
-
+int(value)
+int (center card)
+int(cards)
+int(player1)
+int(player2)
+int(players)
+int (side deck)
 First three rounds:
 
-(1)  Load game
-(2)  Identify 2 players 
-(3)  Distribute 5 cards to each player at random, from the top of the pile
-(4)  Place a card at the center of both players
-(5)  Flip the center card so the card is identified
-(6)  Start the games by flipping a coin to determine who will put the second card on the center
-(7)  If Player 1 is chosen, they must place a card at the center that is similar in suit or in number to the center card
-(8)  Player 1 puts a card that is higher value, which forces player 2 to either pick up two cards from the side pile or pick up all the center pile.
-(9)  Player 2 chooses to take the center pile.
-(10) Now player 1 can choose one of his cards to place in the middle to continue the game.
-(11) Player 2 places a matching card with similar signs.
-(12) Player 1 does not have a matching card to Player 2’s card.
-(13) Player 1 has to pick up two cards from the side pile.
-(14) Repeat until one player has no remaining cards.
+(1)  Load game;
+    players = player1 +player2
+ (2)  Identify 2 players ;
+          cards = (10-54)
+   (3)  Distribute 5 <<cards>> to <<players>> at random, from the top of the pile;
+          center card = 44-1
+     (4)  Place a card at the center of both players;
+
+       
+
+         (6)  Start the games by flipping a coin to determine who will put the second card on the center;
+
+            (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>;
+
+               (8)  <<Player1>> puts a card that is higher <<value>>, which forces player 2 to either pick up two <<cards> from the side pile or pick up all the center pile;
+
+                 (9)  <<Player2>> chooses to take the center pile;}
+
+(10) if{ player2 starts
+
+(11) <<Player2>> places a matching card with similar signs;
+
+(12)  <<Player1>> does not have a matching card to <<Player2>>’s card;
+
+(13)   <<Player1>> has to pick up two <<cards>> from the side pile;}
+
+                                         Repeat until one player has no remaining cards;
