@@ -29,7 +29,7 @@ First three rounds:
 
             (7)  If{ <<Player1>> is chosen, they must place a <<card center>> that is similar in suit or in number to the <<center card>>;
 
-               (8)  <<Player1>> puts a card that is higher <<value>>, which forces player 2 to either pick up two <<cards> from the side pile or pick up all the center pile;
+               (8)  <<Player1>> puts a card that is higher <<value>>, which forces player 2 to either pick up two <<cards> from the <<side deck>> or pick up all the center pile;
 
                  (9)  <<Player2>> chooses to take the center pile;}
 
