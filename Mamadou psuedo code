@@ -7,38 +7,35 @@ The point of the game is to have zero cards left first. Which ever player has di
 It is the opposite of War.
 
 int value;
-int(center card)
-int(cards)
-int(player1)
-int(player2)
-int(players)
-int(side deck)
+int centercard;
+int cards;
+int player1;
+int player2;
+int players;
+int side deck;
+
 First three rounds:
 
 (1)  Load game;
-    players = player1 +player2
- (2)  Identify 2 players ;
-          cards = (10-54)
+    players = player1 + player2
+ (2)  Identify 2 players;
+          cards = (54-10)
    (3)  Distribute 5 <<cards>> to <<players>> at random, from the top of the pile;
-          center card = 44-1
+          centercard = 44-1
      (4)  Place a card at the center of both players;
 
-       
+         (5)  Start the games by flipping a coin to determine who will put the second card on the center;
 
-         (6)  Start the games by flipping a coin to determine who will put the second card on the center;
+            (6)  <<Player1>> must place a <<card center>> that is similar in suit or in number to the <<center card>>;
 
-            (7)  <<Player1>> must place a <<card center>> that is similar in suit or in number to the <<center card>>;
+               (7)  If <<Player1>> puts a card that is higher <<value>>, player 2 must either pick up two <<cards> from the <<side deck>> or pick up all the center pile;
 
-               (8)  If <<Player1>> puts a card that is higher <<value>>, player 2 must either pick up two <<cards> from the <<side deck>> or pick up all the center pile;
-
-                 (9)If  <<Player2>> chooses to take the center pile, than <<Player2>> gets one extra card.,
+                 (8)If  <<Player2>> chooses to take the center pile, than <<Player2>> gets one extra card.,
                     else, <<Player2>> gets all the cards in the center pile, and the center pile resets.}
 
 
-(11)If <<Player2>> places a matching card with similar signs;
-    (12)and  <<Player1>> does not have a matching card to <<Player2>>’s card;
-        (13)than   <<Player1>> has to pick up two <<cards>> from the side pile;}
-(14) Else
-    (15) //i'm not sure what you want to do here but you do want to do something here so feel free to replace this comment with something
-
-                                         Repeat until one player has no remaining cards;
+(9)If <<Player2>> places a matching card with similar signs;
+    (10)and  <<Player1>> does not have a matching card to <<Player2>>’s card;
+        (11)then   <<Player1>> has to pick up two <<cards>> from the side pile;}
+(12) Else
+    (13) Repeat until one player has no remaining cards;
