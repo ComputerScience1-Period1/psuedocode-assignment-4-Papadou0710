@@ -1,6 +1,7 @@
 Pseudo code for card game
 
 Rules:
+
 It is illegal to cheat, for example: looking at your opponent's cards, looking through the the stack of cards on the side.
 If a player has a higher value card than the other player, he/she has the choice of making his/her opponent/opponents take the center pile of cards or pick up 2 cards from the side deck. 
 The point of the game is to have zero cards left first. Which ever player has discards all their cards first, wins the game.
